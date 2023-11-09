@@ -2,8 +2,10 @@
 A command line tool written in c++ that generates a swift enum for endpoints from a csv file
 
 
-### Compile
-`g++ -std=c++11 -o csv_to_swift_endpoint_enum csv_to_swift_endpoint_enum.cpp`
+### Build
+```
+cmake . && make
+```
 
 ### Run
 `./csv_to_swift_endpoint_enum endpoints.csv > endpoints.swift`

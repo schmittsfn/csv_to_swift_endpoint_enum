@@ -1,0 +1,161 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Objects and Paths
+*.o
+*.d
+*.tlog
+*.bak
+*.obj
+*.map
+*.exp
+*.gch
+*.pch
+*.lib
+*.a
+*.la
+*.lo
+*.ltt
+*.loT
+*.mlo
+*.mod
+*.ld
+*.ldd
+*.dll
+*.d.dll
+*.pdb
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+*.cmake
+Makefile
+
+# CMake input
+*.cmake.in
+
+# CMake output
+build/
+Release/
+Debug/
+*.sdf
+*.opensdf
+*.user
+*.userprefs
+*.VC.db
+*.VC.VC.opendb
+
+# Exclude all subdirectories named build
+**/build/
+
+# Qt/QtCreator artifacts
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+
+# Visual Studio Code
+.vscode/
+
+# CLion
+.idea/
+
+# Ignore heavy 3D models from the repository
+*.3dm
+*.3ds
+*.blend
+*.c4d
+*.ma
+*.max
+*.mb
+*.mesh
+*.obj
+*.fbx
+*.dae
+*.stl
+*.ply
+*.dxf
+*.gltf
+*.glb
+
+# Backup & report files from merging tools
+*.orig
+*.bak
+*.tmp
+*.swp
+*~
+
+# OS generated files
+.DS_Store*
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Exclude user-specific files
+*.user
+*.sublime-*
+
+# Exclude specific configuration files
+/config.*

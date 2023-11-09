@@ -1,4 +1,4 @@
-// auto generated using csv_to_swift_enum
+// auto generated using csv_to_swift_endpoint_enum
 
 import AsyncHTTPClient
 import NIOHTTP1
