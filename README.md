@@ -5,6 +5,8 @@ A command line tool written in c++ that generates a swift enum for endpoints fro
 ### Build
 ```
 cmake . && make
+sudo mv csv_to_swift_endpoint_enum /usr/local/bin/
+sudo chmod +x /usr/local/bin/csv_to_swift_endpoint_enum
 ```
 
 ### Run
