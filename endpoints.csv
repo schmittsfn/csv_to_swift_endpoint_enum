@@ -1,6 +1,6 @@
-name,url,method
-getendpoint1,https://example.com/api/endpoint1,GET
-postendpoint2,https://api2.com/endpoint2,POST
-putservice1,https://example.org/service1,PUT
-getresource3,https://api3.net/resource3,GET
+url,method
+https://example.com/api/endpoint1,GET
+https://api2.com/endpoint2,POST
+https://example.org/service1,PUT
+https://api3.net/resource3,GET
 
