@@ -47,13 +47,5 @@ public enum Endpoint {
         case .api3_net_resource3: return .GET
         }
     }
-    func requestBody() -> HTTPClient.Body? {
-        switch self {
-        case .example_com_api_endpoint1: return nil
-        case .api2_com_endpoint2: return nil
-        case .example_org_service1: return nil
-        case .api3_net_resource3: return nil
-        }
-    }
 }
 ```

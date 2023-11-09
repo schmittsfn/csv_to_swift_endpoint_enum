@@ -120,15 +120,6 @@ int main(int argc, char *argv[])
     std::cout << "        }" << std::endl;
     std::cout << "    }" << std::endl;
 
-    std::cout << "    func requestBody() -> HTTPClient.Body? {" << std::endl;
-    std::cout << "        switch self {" << std::endl;
-    for (const Endpoint &endpoint : endpoints)
-    {
-        std::cout << "        case ." << endpoint.name << ": return nil" << std::endl;
-    }
-    std::cout << "        }" << std::endl;
-    std::cout << "    }" << std::endl;
-
     std::cout << "}" << std::endl;
     return 0;
 }
