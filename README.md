@@ -12,11 +12,11 @@ cmake . && make
 
 ### Sample csv
 ```
-name,url,method
-getendpoint1,https://example.com/api/endpoint1,GET
-postendpoint2,https://api2.com/endpoint2,POST
-putservice1,https://example.org/service1,PUT
-getresource3,https://api3.net/resource3,GET
+url,method
+https://example.com/api/endpoint1,GET
+https://example.com/endpoint2,POST
+https://example.org/service1,PUT
+https://example.net/resource3,GET
 ```
 
 ### Sample enum
@@ -26,33 +26,33 @@ import NIOHTTP1
 
 
 public enum Endpoint {
-    case getendpoint1
-    case postendpoint2
-    case putservice1
-    case getresource3
+    case example_com_api_endpoint1
+    case api2_com_endpoint2
+    case example_org_service1
+    case api3_net_resource3
 
     var url: String {
         switch self {
-        case .getendpoint1: return "https://example.com/api/endpoint1"
-        case .postendpoint2: return "https://api2.com/endpoint2"
-        case .putservice1: return "https://example.org/service1"
-        case .getresource3: return "https://api3.net/resource3"
+        case .example_com_api_endpoint1: return "https://example.com/api/endpoint1"
+        case .api2_com_endpoint2: return "https://api2.com/endpoint2"
+        case .example_org_service1: return "https://example.org/service1"
+        case .api3_net_resource3: return "https://api3.net/resource3"
         }
     }
     var httpMethod: HTTPMethod {
         switch self {
-        case .getendpoint1: return .GET
-        case .postendpoint2: return .POST
-        case .putservice1: return .PUT
-        case .getresource3: return .GET
+        case .example_com_api_endpoint1: return .GET
+        case .api2_com_endpoint2: return .POST
+        case .example_org_service1: return .PUT
+        case .api3_net_resource3: return .GET
         }
     }
     func requestBody() -> HTTPClient.Body? {
         switch self {
-        case .getendpoint1: return nil
-        case .postendpoint2: return nil
-        case .putservice1: return nil
-        case .getresource3: return nil
+        case .example_com_api_endpoint1: return nil
+        case .api2_com_endpoint2: return nil
+        case .example_org_service1: return nil
+        case .api3_net_resource3: return nil
         }
     }
 }
