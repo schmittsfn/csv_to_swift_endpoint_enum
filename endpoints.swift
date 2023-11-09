@@ -1,24 +1,5 @@
-## csv_to_swift_endpoint_enum
-A command line tool written in c++ that generates a swift enum for endpoints from a csv file
+// auto generated using csv_to_swift_enum
 
-
-### Compile
-`g++ -std=c++11 -o csv_to_swift_endpoint_enum csv_to_swift_endpoint_enum.cpp`
-
-### Run
-`./csv_to_swift_endpoint_enum endpoints.csv > endpoints.swift`
-
-### Sample csv
-```
-name,url,method
-getendpoint1,https://example.com/api/endpoint1,GET
-postendpoint2,https://api2.com/endpoint2,POST
-putservice1,https://example.org/service1,PUT
-getresource3,https://api3.net/resource3,GET
-```
-
-### Sample enum
-```swift
 import AsyncHTTPClient
 import NIOHTTP1
 
@@ -54,4 +35,3 @@ public enum Endpoint {
         }
     }
 }
-```

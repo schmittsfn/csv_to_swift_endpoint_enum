@@ -55,7 +55,7 @@ int main(int argc, char* argv[]) {
     
     const std::vector<Endpoint> endpoints = parseCSV(inputFilename);
     // Generate the Swift enum code
-    std::cout << "// auto generated using csv_to_swift_enum" << std::endl;
+    std::cout << "// auto generated using csv_to_swift_endpoint_enum" << std::endl;
     std::cout << std::endl;
     std::cout << "import AsyncHTTPClient" << std::endl;
     std::cout << "import NIOHTTP1" << std::endl;
